@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/05d450944d.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Friends I Kakao Clone</title>
   </head>
   <body>
@@ -26,27 +27,35 @@
     </div>
     <header class="header">
       <div class="header__header-column">
-        <h1 class="header_title">Friends</h1>
+        <h1 class="header__title">Friends</h1>
       </div>
       <div class="header__header-column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
           <i class="fas fa-comment"></i>
-          <i class="fas fa-cog"></i>
+        </span>
+        <span class="header__icon">
+          <a href="settings.html">
+            <i class="fas fa-cog"></i>
+          </a>
         </span>
       </div>
     </header>
 
     <header class="friends__header">
       <div class="friends__friend friend friend--lg">
-        <img class="g-avatar friend__avatar" src="images/miyeon.PNG" />
-        <div class="friend__content">
-          <span class="friend__name">
-            Jaechan Kim
-          </span>
-          <span class="friend__status">
-            Jaechan Kim
-          </span>
+        <div class="friend__column">
+          <img class="g-avatar friend__avatar" src="images/miyeon.PNG" />
+          <div class="friend__content">
+            <span class="friend__name">
+              Jaechan Kim
+            </span>
+            <span class="friend__status">
+              Jaechan Kim
+            </span>
+          </div>
         </div>
       </div>
     </header>
@@ -54,7 +63,7 @@
       <h5 class="friends__title">Plus friend</h5>
       <div class="friends__friend friend friend">
         <div class="friend__column">
-          <img class="g-avatar friend__avatar" src="images/miyeon.PNG" />
+          <img class="friend__avatar" src="images/miyeon.PNG" />
           <div class="friend__content">
             <span class="friend__name">
               Plus friend
@@ -67,8 +76,8 @@
       <h5 class="friends__title">Friends 14</h5>
 
       <li class="friends__friend friend friend--lg">
-        <div class="friends__column">
-          <img class="g-avatar friend__avatar" src="images/miyeon.PNG" />
+        <div class="friend__column">
+          <img class="friend__avatar" src="images/miyeon.PNG" />
           <div class="friend__content">
             <span class="friend__name">
               Jaechan Kim
