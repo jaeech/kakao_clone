@@ -18,7 +18,11 @@
   z-index: 4;
 }
 
+<<<<<<< HEAD
 @media screen and (min-width: 800px) {
+=======
+@media screen and (min-width: 700px) {
+>>>>>>> master
   .bigScreen {
     display: flex;
   }
